@@ -138,9 +138,48 @@ a {
 	margin-bottom: 20px;
 }
 
+.page-nav ul li{
+	float: left;
+	list-style: none;
+	margin-left: 20px;
+}
 
+.page-nav{
+	width: 100%;
+	height: 60px;
+	line-height: 60px;/*垂直居中*/
+	/*border: 1px solid black;*/
+	overflow: hidden;
+}
 
+.page-nav ul{
+	margin: 0 auto;/*水平居中*/
+	overflow: hidden;
+	width: 500px;
+}
 
+.first-page{
+	border-radius: 50%;
+	background-color: #c5c5c5;
+	padding: 3px 9px;
+}
+
+.footer{
+	width: 1200px;
+	height: 100px;
+	margin: 60px auto;
+	border-top:1px solid #ccc; 
+	overflow: hidden;
+}
+
+.footer p{
+	text-align: center;
+	line-height: 50px;
+}
+
+.footer p span{
+	color: red;
+}
 
 
 
