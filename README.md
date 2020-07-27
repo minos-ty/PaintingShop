@@ -1,2 +1,2 @@
 # PaintingShop
- HTML+CSS+JavaScript前端小项目，油画商城
+ HTML+CSS+JavaScript前端小项目，油画商城。
