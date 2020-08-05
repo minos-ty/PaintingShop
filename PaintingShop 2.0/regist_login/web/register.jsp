@@ -3,13 +3,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-	<title>用户注册</title>
-	<link href="style/common.css" type="text/css" rel="stylesheet">
-  <link href="style/add.css" type="text/css" rel="stylesheet">
-  <link rel="stylesheet" href="style/login.css">
-	<script type="text/javascript">
-		function validate_form(){
+    <meta charset="UTF-8">
+    <title>用户注册</title>
+    <link href="style/common.css" type="text/css" rel="stylesheet">
+    <link href="style/add.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="style/login.css">
+    <script type="text/javascript">
+        function validate_form(){
 			// 获得用户名的值
 			var username = document.getElementById("username").value;
 			if(username == null || username==""){
@@ -46,7 +46,8 @@
          <div class="user-title">
            <p>用户注册</p>
          </div>
-         <form id="regForm" enctype="multipart/form-data" onsubmit="return validate_form()" class="login-table" action="${pageContext.request.contextPath }/RegistServlet" method="post">
+         <form id="regForm" enctype="multipart/form-data" onsubmit="return validate_form()" class="login-table"
+               action="${pageContext.request.contextPath }/RegistServlet" method="get">
           <div class="login-left">
             <label class="username">用户名&nbsp&nbsp&nbsp&nbsp</label>
             <input type="text" id="username" class="yhmiput" name="username">

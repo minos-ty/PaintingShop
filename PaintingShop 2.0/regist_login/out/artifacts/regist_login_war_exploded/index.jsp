@@ -159,7 +159,7 @@
     </div>
 
     <div class="footer">
-        <p><span>M-GALLARY</span>©2017 POWERED BY IMOOC.INC</p>
+        <p><span>M-GALLARY</span>©2020 POWERED BY Minos</p>
     </div>
 </body>
 </html>
